@@ -2,6 +2,7 @@ h1 {
     text-align: center;
     font-family: Trebuchet MS,sans-serif;
     color: #e62649;
+    margin: 15px;
 }
 
 :root {
@@ -27,7 +28,7 @@ h1 {
 }
 
 #clear {
-  margin: 15px;
+  margin: 10px;
   margin-left: 30px;
   padding: 10px;
   width: 150px;
