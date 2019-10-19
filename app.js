@@ -44,7 +44,7 @@ clearBtn.addEventListener('click', function clear() {
     contain.removeChild(contain.firstChild);
   }
 
-  let gridSize = prompt('How many squares per side to make the new grid? Max. 25.');
+  let gridSize = prompt('How many squares per side to make the new grid? Max. 30.');
   sqrsSide = parseInt(gridSize);
   if (sqrsSide > 30 ) {
     alert('Sorry! Max. 30 squares per side.')
